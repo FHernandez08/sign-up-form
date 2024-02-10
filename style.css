@@ -52,3 +52,29 @@
     --logo-fs: 'Arvo', serif;;
     --main-fs: 'Roboto', sans-serif;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    width: 1440px;
+    max-height: 1024px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side{
+    display: flex;
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    width: 30%;
+}
+
+.right-side {
+    justify-content: center;
+    align-items: center;
+}
