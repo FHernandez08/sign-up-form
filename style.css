@@ -61,20 +61,117 @@ body {
 main {
     display: flex;
     width: 1440px;
-    max-height: 1024px;
+    height: 1024px;
 
     justify-content: center;
     align-items: center;
 }
 
+/* left side of the form */
 .left-side{
-    display: flex;
     background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
-    width: 30%;
+    height: 100%;
+    width: 50%;
 }
 
+
+.flex-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+
+
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+
+  position: relative;
+  top: 200px;
+}
+
+.flex-section p {
+  color: white;
+  font-family: var(--logo-fs);
+  font-size: 75px;
+}
+
+img {
+  height: 100px;
+  width: 75px;
+}
+
+.underline {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+}
+
+/* right side of the form */
 .right-side {
+    height: 100%;
     justify-content: center;
-    align-items: center;
+    background-color: #f0f0f0;
+
+    
+}
+.flex-right {
+  margin-left: 50px;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+
+section p {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+label {
+  font-family: var(--main-fs);
+}
+
+.right-one p {
+  font-size: 20px;
+  margin: 15px;
+  font-weight: bold;
+}
+
+.right-two p {
+  margin-bottom: 10px;
+}
+
+.column {
+  display: flex;
+  gap: 50px;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: column;
+
+}
+
+button {
+  background-color: #596d48;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 35px;
+
+  border-style: solid;
+}
+
+.right-three b {
+  color: #596d48;
+}
+
+.flex-item:focus {
+  border-color: blue;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
+  25px 0px 20px -20px rgba(0, 0, 0, 0.45),
+  0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+  -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
 }

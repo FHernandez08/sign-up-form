@@ -12,39 +12,44 @@
 <body>
     <main>
         <div class="left-side">
-            <div class="flex left">
-                <img src="images/odin-lined.png" alt="odin image">
-                <p>odin</p>
+            <div class="flex-left">
+                <div class="flex-section">
+                    <img src="images/odin-lined.png" alt="odin image">
+                    <p>ODIN</p>
+                </div>
             </div>
             <p class="underline">Photo by <u>Halie West</u> on <u>Unsplash</u></p>
         </div>
 
         <div class="right-side">
-            <div class="flex right">
-                <p>
-                    This is not a real online service! You know you need something
-                    like this in your life to help you realize your deepest dreams.
-                    Sign up <i>now</i> to get started.
-                </p>
-                <p>You <i>know</i> you want to.</p>
+            <div class="flex-right">
+                <div class="right-one">
+                    <p>
+                        This is not a real online service! You know you need something
+                        like this in your life to help you realize your deepest dreams.
+                        Sign up <i>now</i> to get started.
+                    </p>
+                    <p>You <i>know</i> you want to.</p>
+                </div>
             </div>
-            <div class="flex right">
-                <p>Let's do this!</p>
-                <div class="row">
-                    <div class="column">
-                        <div class="column-one">
-                            <div class="flex-item">
-                                <label for="first-name">First Name</label>
-                                <input type="text" name="first-name" id="first-name" placeholder="jane">
-                            </div>
-                            <div class="flex-item">
-                                <label for="email">Email</label>
-                                <input type="email" name="email" id="email" placeholder="janedoe@email.com">
-                            </div>
-                            <div class="flex-item">
-                                <label for="password">Password</label>
-                                <input type="password" name="password" id="password" required minlength="8" maxlength="20">
-                            </div>
+            <div class="flex-right">
+                <section class="right-two">
+                    <p>Let's do this!</p>
+                    <div class="row">
+                        <div class="column">
+                            <div class="column-one">
+                                <div class="flex-item">
+                                    <label for="first-name">First Name</label>
+                                    <input type="text" name="first-name" id="first-name" placeholder="jane">
+                                </div>
+                                <div class="flex-item">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" placeholder="janedoe@email.com">
+                                </div>
+                                <div class="flex-item">
+                                    <label for="password">Password</label>
+                                    <input type="password" name="password" id="password" required minlength="8" maxlength="20">
+                                </div>
                         </div>
                     <div class="column">
                         <div class="column-two">
@@ -61,12 +66,13 @@
                                 <input type="password" name="password" id="confirm-password">
                             </div>
                         </div>
-
-                    </div>
                     </div>
                 </div>
+                    </div>
+                </section>
             </div>
-            <div class="flex right">
+        <div class="flex-right">
+            <div class="right-three">
                 <button type="submit">Create Account</button>
                 <p>Already have an account? <b>Log in</b></p>
             </div>
